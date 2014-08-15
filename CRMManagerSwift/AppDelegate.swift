@@ -14,9 +14,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 
+    func setCustomizedApprearance() {
+
+        // set NavigationBar
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "navigationBar_bg"), forBarMetrics: .Default)
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(),
+                                                            NSFontAttributeName:UIFont.systemFontOfSize(20)]
+    
+
+
+        // set StatusBar
+        UIApplication.sharedApplication().setStatusBarHidden(false, withAnimation: .None)
+        UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: true)
+
+    }
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
+
+        self.setCustomizedApprearance()
+
         return true
     }
 

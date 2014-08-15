@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		7C4100D4199C7E900036E6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4100D3199C7E900036E6BC /* AppDelegate.swift */; };
 		7C4100D7199C7E900036E6BC /* CRMManagerSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C4100D5199C7E900036E6BC /* CRMManagerSwift.xcdatamodeld */; };
-		7C4100D9199C7E900036E6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4100D8199C7E900036E6BC /* ViewController.swift */; };
 		7C4100DC199C7E900036E6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4100DA199C7E900036E6BC /* Main.storyboard */; };
 		7C4100DE199C7E900036E6BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4100DD199C7E900036E6BC /* Images.xcassets */; };
 		7C4100EA199C7E900036E6BC /* CRMManagerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4100E9199C7E900036E6BC /* CRMManagerSwiftTests.swift */; };
+		7C410100199DA7040036E6BC /* ZDSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4100FF199DA7040036E6BC /* ZDSettingsViewController.swift */; };
+		7C410102199DA8FE0036E6BC /* ZDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C410101199DA8FE0036E6BC /* ZDTabBarController.swift */; };
+		7C410105199DA9590036E6BC /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C410104199DA9590036E6BC /* UIImageUtil.swift */; };
+		7C41010B199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C410109199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.m */; };
+		7C41010C199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C41010A199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.xib */; };
+		7C410114199DCA490036E6BC /* ZDChanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C410113199DCA490036E6BC /* ZDChanceTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +35,18 @@
 		7C4100D2199C7E900036E6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C4100D3199C7E900036E6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C4100D6199C7E900036E6BC /* CRMManagerSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CRMManagerSwift.xcdatamodel; sourceTree = "<group>"; };
-		7C4100D8199C7E900036E6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C4100DB199C7E900036E6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C4100DD199C7E900036E6BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C4100E3199C7E900036E6BC /* CRMManagerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRMManagerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4100E8199C7E900036E6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C4100E9199C7E900036E6BC /* CRMManagerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMManagerSwiftTests.swift; sourceTree = "<group>"; };
+		7C4100FF199DA7040036E6BC /* ZDSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSettingsViewController.swift; sourceTree = "<group>"; };
+		7C410101199DA8FE0036E6BC /* ZDTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDTabBarController.swift; sourceTree = "<group>"; };
+		7C410104199DA9590036E6BC /* UIImageUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
+		7C410108199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSFLeftRightSwipeTableViewCell.h; sourceTree = "<group>"; };
+		7C410109199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSFLeftRightSwipeTableViewCell.m; sourceTree = "<group>"; };
+		7C41010A199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSFLeftRightSwipeTableViewCell.xib; sourceTree = "<group>"; };
+		7C410113199DCA490036E6BC /* ZDChanceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDChanceTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +88,12 @@
 		7C4100D0199C7E900036E6BC /* CRMManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				7C410103199DA9390036E6BC /* Utils */,
+				7C4100F3199C80210036E6BC /* Controllers */,
+				7C4100F4199C80210036E6BC /* Models */,
+				7C4100F5199C80210036E6BC /* Stores */,
+				7C4100F6199C80210036E6BC /* Views */,
 				7C4100D3199C7E900036E6BC /* AppDelegate.swift */,
-				7C4100D8199C7E900036E6BC /* ViewController.swift */,
 				7C4100DA199C7E900036E6BC /* Main.storyboard */,
 				7C4100DD199C7E900036E6BC /* Images.xcassets */,
 				7C4100D5199C7E900036E6BC /* CRMManagerSwift.xcdatamodeld */,
@@ -110,6 +125,112 @@
 				7C4100E8199C7E900036E6BC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C4100F3199C80210036E6BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C4100F9199DA7040036E6BC /* Chances */,
+				7C4100FA199DA7040036E6BC /* Customers */,
+				7C4100FB199DA7040036E6BC /* Login */,
+				7C4100FC199DA7040036E6BC /* Main */,
+				7C4100FD199DA7040036E6BC /* Products */,
+				7C4100FE199DA7040036E6BC /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7C4100F4199C80210036E6BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C4100F5199C80210036E6BC /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		7C4100F6199C80210036E6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C410106199DC8650036E6BC /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C4100F9199DA7040036E6BC /* Chances */ = {
+			isa = PBXGroup;
+			children = (
+				7C410113199DCA490036E6BC /* ZDChanceTableViewController.swift */,
+			);
+			path = Chances;
+			sourceTree = "<group>";
+		};
+		7C4100FA199DA7040036E6BC /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		7C4100FB199DA7040036E6BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7C4100FC199DA7040036E6BC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7C410101199DA8FE0036E6BC /* ZDTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7C4100FD199DA7040036E6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		7C4100FE199DA7040036E6BC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7C4100FF199DA7040036E6BC /* ZDSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7C410103199DA9390036E6BC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7C410104199DA9590036E6BC /* UIImageUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7C410106199DC8650036E6BC /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7C410107199DC8790036E6BC /* SSFLeftRightSwipeCell */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		7C410107199DC8790036E6BC /* SSFLeftRightSwipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				7C410108199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.h */,
+				7C410109199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.m */,
+				7C41010A199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.xib */,
+			);
+			path = SSFLeftRightSwipeCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C41010C199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.xib in Resources */,
 				7C4100DC199C7E900036E6BC /* Main.storyboard in Resources */,
 				7C4100DE199C7E900036E6BC /* Images.xcassets in Resources */,
 			);
@@ -211,9 +333,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4100D9199C7E900036E6BC /* ViewController.swift in Sources */,
 				7C4100D7199C7E900036E6BC /* CRMManagerSwift.xcdatamodeld in Sources */,
 				7C4100D4199C7E900036E6BC /* AppDelegate.swift in Sources */,
+				7C410105199DA9590036E6BC /* UIImageUtil.swift in Sources */,
+				7C410114199DCA490036E6BC /* ZDChanceTableViewController.swift in Sources */,
+				7C410102199DA8FE0036E6BC /* ZDTabBarController.swift in Sources */,
+				7C41010B199DC8790036E6BC /* SSFLeftRightSwipeTableViewCell.m in Sources */,
+				7C410100199DA7040036E6BC /* ZDSettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
